@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Bird</title>
+    <style>
+        /* Add your existing CSS here */
+
+        #change-language {
+            cursor: pointer;
+        }
+
+        /* RTL styles for Arabic */
+        body[lang="ar"] {
+            direction: rtl;
+            text-align: right;
+        }
+
+        /* Add any additional RTL specific styles if necessary */
+
+    </style>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- 
+    ------------------------------
+        header section start
+    ------------------------------
+    -->
+    <header>
+        <div class="container">
+            <div class="logo"><img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" alt="logo" width="100" height="70"></div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" data-lang="home">Home</a></li>
+                    <li><a href="contact.html" data-lang="about">Contact</a></li>
+                    <li><a href="#" data-lang="groups">Groups</a></li>
+                    <li><a href="#" data-lang="events">Events</a></li>
+                    <li><a href="#" data-lang="location">Location</a></li>
+                    <li><a href="hotelsListing.html" data-lang="hotels">Hotels</a></li>
+                    <li><a href="#" data-lang="targets">Targets</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" id="language-toggle"><ion-icon name="earth-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+        </div>
+    </header>
+        <!-- 
+    ------------------------------
+        header section end
+    ------------------------------
+    --> 
+    <!-- 
+    ------------------------------
+        main section start
+    ------------------------------
+    -->
+    <main class="container">
+        <!-- 
+        ------------------------------
+            hero section start
+        ------------------------------
+        -->
+        
+        <section class="hero">
+            <div class="hero-content">
+                <div class="cont-box">
+                    <div class="btn-hero-cont">
+                        <ion-icon id="prev-hero" name="arrow-back-outline"></ion-icon>
+                        <ion-icon id="next-hero" name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div class="btn-hero-social">
+                        <a href="https://www.facebook.com/snowbird2022"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/snowbird_bgw/"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://wa.link/gmd2uk"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ------------------------------
+            hero section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            visa section start
+        ------------------------------
+        -->
+        <section>
+            <a href="visa.html" data-lang="visa" class="fixed-visa-button data-lang="see_more"">Visa</a>
+        </section>
+        <!-- 
+        ------------------------------
+            visa section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            tour groups section start
+        ------------------------------
+        -->
+        <section class="tour-groups">
+            <div class="content-tour-box">
+                <h1>Our <span class="red-text">tour groups</span></h1>
+                <p>"Embark on your next adventure with us and let every mile become a cherished memory.</p>
+            </div>
+            <div class="slider-tour-container">
+                <div class="slide">
+                    <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+                        <div class="content">
+                            <div class="name">Switzerland</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(https://i.ibb.co/jrRb11q/img2.jpg);">
+                        <div class="content">
+                            <div class="name">Finland</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+                        <div class="content">
+                            <div class="name">Iceland</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
+                        <div class="content">
+                            <div class="name">Australia</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(https://i.ibb.co/jTQfmTq/img5.jpg);">
+                        <div class="content">
+                            <div class="name">Netherland</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(https://i.ibb.co/RNkk6L0/img6.jpg);">
+                        <div class="content">
+                            <div class="name">Ireland</div>
+                            <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                            <button data-lang="see_more">See More</button>
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class="button data-lang="see_more"">
+                    <button data-lang="see_more" class="left"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button data-lang="see_more" class="right"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+        
+            </div>
+        </section>
+                        <!-- 
+        ------------------------------
+            tour groups section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            partner section start
+        ------------------------------
+        -->
+        <section class="partners">
+            <h2 data-lang="partner">Our <span class="red-text">Partners</span></h2>
+            <div class="logo-slider">
+                <div class="logo-slide-track">
+                    <div class="logo">
+                        <img src="asset/images/partner/1.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/2.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/3.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/4.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/5.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/6.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/7.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/8.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/9.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/10.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/11.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/12.png" alt="" />
+                    </div>
+                    <div class="logo">
+                        <img src="asset/images/partner/13.png" alt="" />
+                    </div>   
+                    <div class="logo">
+                        <img src="asset/images/partner/14.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ------------------------------
+            partner section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            location section start
+        ------------------------------
+        -->
+        <section class="location">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.945589550723!2d44.42431648889033!3d33.30362859178406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557811a5f85b8ef%3A0x94a6b4a57bbbced7!2z2LTYsdmD2Kkg2LfYp9im2LEg2KfZhNir2YTYrCDZhNmE2LPZgdixINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2siq!4v1723267520693!5m2!1sar!2siq" width="100%" height="400" loading="lazy" style="border-radius: 24px; border: none;"></iframe>
+            </div>
+            <div class="locations-slider">
+                <div class="slider-container">
+                    <div class="slide-loc">
+                        <div class="card" style="background: url(asset/images/hotel/kualalmbor/milan/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2 data-lang="hotel_name" >kualalmbor <br> milan</h2>
+                                <p data-lang="hotel_deatil">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more" data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/kualalmbor/Royale-Chulan/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/kualalmbor/Swiss-Garden-Hotel/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/kualalmbor/times-sequer/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/byrot/Crown-Plaza-Hotel/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/byrot/Le-Comodore-Hotel/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/byrot/ramada-plaza-rauche/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/tunis/El-Mouradi-Hotel-Africa-Tunis/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/tunis/Hotel-Nesrine-Hammamet/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/gorgea/margo-place/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button>
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/gorgea/Marjan-Plaza-Hotel/1.JPG) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button >
+                            </div>
+                        </div>
+                        <div class="card" style="background: url(asset/images/hotel/gorgea/redline-hotel/1.jpg) no-repeat center/cover;">
+                            <div class="info">
+                                <h2>Switzerland</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button data-lang="see_more">See More</button >
+                            </div>
+                        </div>
+                    </div>
+                    <ion-icon class="prev-location" name="arrow-back-outline"></ion-icon>
+                    <ion-icon class="next-location" name="arrow-forward-outline"></ion-icon>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ------------------------------
+            location section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            trips section start
+        ------------------------------
+        -->
+            <section class="trips-section">
+                <h2>Our Trips</h2>
+                <div class="trips-slider">
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/tuines.jpg');">
+                        <div class="trip-info">
+                            <p>tuines <br> <a href="#" data-lang="see_more" >see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/turkey.jpg');">
+                        <div class="trip-info">
+                            <p>Details about Trip 6. <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/dubai.jpg');">
+                        <div class="trip-info">
+                            <p>dubai <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/birut.jpg');">
+                        <div class="trip-info">
+                            <p>birut <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/kuala-lumpur.jpg');">
+                        <div class="trip-info">
+                            <p>kuala lumpur <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trips-slider-revers">
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/birut.jpg');">
+                        <div class="trip-info">
+                            <p>birut <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/dubai.jpg');">
+                        <div class="trip-info">
+                            <p>dubai <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/georgia.jpg');">
+                        <div class="trip-info">
+                            <p>georgia <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/kuala-lumpur.jpg');">
+                        <div class="trip-info">
+                            <p>kuala lumpur <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                    <div class="trip-card" style="background-image: url('asset/images/trips-images/oman.jpg');">
+                        <div class="trip-info">
+                            <p>oman <br> <a href="#" data-lang="see_more">see more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- 
+        ------------------------------
+            trips section end
+        ------------------------------
+        -->
+        <!-- 
+        ------------------------------
+            testimonials section start
+        ------------------------------
+        -->
+        <section class="testimonials">
+            <div class="testimonial-content">
+                <div class="content-box">
+                    <h3>See What Our Customer Says About Us</h3>
+                    <h2>Over 1 Lac+ Happy Customers</h2>
+                </div>
+                <div class="customer-feedback">
+                    <div class="customer active">
+                        <img src="https://via.placeholder.com/60" alt="Customer">
+                        <div class="customer-details">
+                            <h4>Ali Salman</h4>
+                            <p>Our Customer Happiness is Our Ultimate Reward. We strive to provide the best services. - Traveling with Snow Bird was a wonderful experience.</p>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="https://via.placeholder.com/60" alt="Customer">
+                        <div class="customer-details">
+                            <h4>John Doe</h4>
+                            <p>Excellent service! Everything was perfectly arranged and the tour guide was very knowledgeable.</p>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <img src="https://via.placeholder.com/60" alt="Customer">
+                        <div class="customer-details">
+                            <h4>Jane Smith</h4>
+                            <p>I had an amazing experience traveling with Snow Bird. Highly recommend!</p>
+                        </div>
+                    </div>
+                    <button  id="left" class="arrow "><ion-icon name="chevron-back-outline"></ion-icon><button data-lang="see_more">
+                    <button  id="right" class="arrow"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </div>
+            </div>
+        </section>
+        <!-- 
+        ------------------------------
+            testimonials section end
+        ------------------------------
+        -->
+    </main>
+    <!-- 
+    ------------------------------
+        main section end
+    ------------------------------
+    -->
+    <!-- 
+    ------------------------------
+        footer section start
+    ------------------------------
+    -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" width="150" height="90" alt="Snow Bird">
+                <p data-lang="footer_about">Snowbird Travel and Tourism was founded to meet Iraqi citizens' travel needs, offering flight bookings, premium accommodations, and visa services, all with a commitment to exceptional quality and unique experiences.</p>
+            </div>
+            <div class="footer-section location">
+                <h3 data-lang="footer_location">Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.945589550723!2d44.42431648889033!3d33.30362859178406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557811a5f85b8ef%3A0x94a6b4a57bbbced7!2z2LTYsdmD2Kkg2LfYp9im2LEg2KfZhNir2YTYrCDZhNmE2LPZgdixINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2siq!4v1723267520693!5m2!1sar!2siq" width="250px" height="150px" loading="lazy" style="border-radius: 24px; border: none;"></iframe>
+            </div>
+            <div class="footer-section social">
+                <h3 data-lang="footer_social_media">Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/snowbird2022"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/snowbird_bgw/"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-write" data-lang="copywrite">All rights reserved by project.Iq</div>
+    </footer>
+        <!-- 
+        ------------------------------
+            footer section start
+        ------------------------------
+        -->
+    <!-- js linkes -->
+        <!-- ion-icon speacil links for icons and logos -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!-- js file find in asset folder -->
+    <script src="asset/main.js"></script>
+    <script src="asset/transl.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const changeLanguageButton = document.getElementById('change-language');
+    let currentLanguage = 'en';
+
+    changeLanguageButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        currentLanguage = currentLanguage === 'en' ? 'ar' : 'en';
+        document.documentElement.lang = currentLanguage;
+        document.body.lang = currentLanguage;
+
+        // Change text content based on language
+        document.querySelectorAll('[data-lang-en]').forEach(el => {
+            el.textContent = currentLanguage === 'en' ? el.getAttribute('data-lang-en') : el.getAttribute('data-lang-ar');
+        });
+
+        // Add any additional changes needed for RTL layout
+        if (currentLanguage === 'ar') {
+            document.body.classList.add('rtl');
+        } else {
+            document.body.classList.remove('rtl');
+        }
+    });
+});
+
+    </script>
+</body>
+</html>

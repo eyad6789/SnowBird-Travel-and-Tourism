@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../asset/style.css">
+    <style>
+        .hotel-detail {
+            padding: 0 4%;
+        }
+        .hotel-title {
+            margin-top: 50px;
+        }
+        .hotel-title h1 {
+            font-weight: 600;
+        }
+        .hotel-detail .row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .hotel-title ion-icon {
+            color: var(--secondary-color);
+            font-size: 14px;
+        }
+        .gallery {
+            display: grid;
+            gap: 10px;
+            grid-template-areas: 'first first . .'  'first first . .' ;
+            margin-top: 20px;
+        }
+        .gallery div img {
+            width: 100%;
+            height: 100%;
+            height: auto; 
+            display: block;
+            border-radius: 12px;
+        }
+        .gallery-img-1 {
+            grid-area: first;
+
+        }
+        .small-details h2 {
+            font-weight: 500;
+        }
+        .small-details h4 {
+            text-align: right;
+            font-size: 22px;
+        }
+        .line {
+            border: 0;
+            height: 1px;
+            background-color: #ccc;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px 0 50px;
+        }
+
+
+    </style>
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="logo"><img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" alt="logo" width="100" height="70"></div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../home.html" data-lang="home">Home</a></li>
+                    <li><a href="../contact.html" data-lang="about">Contact</a></li>
+                    <li><a href="#" data-lang="groups">Groups</a></li>
+                    <li><a href="#" data-lang="events">Events</a></li>
+                    <li><a href="#" data-lang="location">Location</a></li>
+                    <li><a href="../hotelsListing.html" data-lang="hotels">Hotels</a></li>
+                    <li><a href="#" data-lang="targets">Targets</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" id="language-toggle"><ion-icon name="earth-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main class="container">
+        <section class="hotel-detail">
+            <div class="hotel-title">
+                <h1>Crown Plaza Hotel</h1>
+            </div>
+            <div class="row">
+                <div>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div>
+                    location: lobano, bairut
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery-img-1"><img src="../asset/images/hotel/byrot/Crown-Plaza-Hotel/1.jpg" alt=""></div>
+                <div><img src="../asset/images/hotel/byrot/Crown-Plaza-Hotel/6.jpg" alt=""></div>
+                <div><img src="../asset/images/hotel/byrot/Crown-Plaza-Hotel/3.jpg" alt=""></div>
+                <div><img src="../asset/images/hotel/byrot/Crown-Plaza-Hotel/4.jpg" alt=""></div>
+                <div><img src="../asset/images/hotel/byrot/Crown-Plaza-Hotel/7.jpg" alt=""></div>
+            </div>
+            <div class="small-details">
+                <h2>enter rental unit hosted by bradon</h2>
+                <p>2 gust  &nbsp;&nbsp; 2 beds &nbsp;&nbsp; 1 bathroom</p>
+                <h4>$ 100 / day</h4>
+            </div>
+            <hr class="line">
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" width="150" height="90" alt="Snow Bird">
+                <p data-lang="footer_about">Snowbird Travel and Tourism was founded to meet Iraqi citizens' travel needs, offering flight bookings, premium accommodations, and visa services, all with a commitment to exceptional quality and unique experiences.</p>
+            </div>
+            <div class="footer-section location">
+                <h3 data-lang="footer_location">Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.945589550723!2d44.42431648889033!3d33.30362859178406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557811a5f85b8ef%3A0x94a6b4a57bbbced7!2z2LTYsdmD2Kkg2LfYp9im2LEg2KfZhNir2YTYrCDZhNmE2LPZgdixINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2siq!4v1723267520693!5m2!1sar!2siq" width="250px" height="150px" loading="lazy" style="border-radius: 24px; border: none;"></iframe>
+            </div>
+            <div class="footer-section social">
+                <h3 data-lang="footer_social_media">Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/snowbird2022"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/snowbird_bgw/"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-write" data-lang="copywrite">All rights reserved by project.Iq</div>
+    </footer>
+        <!-- 
+        ------------------------------
+            footer section start
+        ------------------------------
+        -->
+    <!-- js linkes -->
+        <!-- ion-icon speacil links for icons and logos -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!-- js file find in asset folder -->
+    <script src="asset/main.js"></script>
+    <script src="asset/transl.js"></script>
+    <script>
+            document.addEventListener('DOMContentLoaded', function () {
+        // Select the main image container and all other images in the gallery
+        const mainImageContainer = document.querySelector('.gallery-img-1 img');
+        const otherImages = document.querySelectorAll('.gallery div:not(.gallery-img-1) img');
+
+        otherImages.forEach(image => {
+            image.addEventListener('click', function () {
+                // Store the current main image source
+                const currentMainImageSrc = mainImageContainer.src;
+                // Set the main image to the clicked image's source
+                mainImageContainer.src = image.src;
+                // Set the clicked image's source to the old main image
+                image.src = currentMainImageSrc;
+            });
+        });
+    });
+
+    </script>
+</body>
+</html>

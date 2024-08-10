@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #fff;
+        }
+        .contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form, .contact-info {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.contact-form {
+    flex: 1 1 45%;
+    margin-right: 10px;
+}
+
+.contact-info {
+    flex: 1 1 45%;
+    margin-left: 10px;
+    padding-top: 80px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;    /* Center elements horizontally */
+}
+
+.info-block {
+    width: 80%;              /* Adjust width as needed */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.info-block i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-block h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.info-block .blue-text {
+    color: var(--main-color);
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.whatsapp-link {
+    color: var(--secondary-color); /* WhatsApp green */
+    text-decoration: none;
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-link i {
+    margin-right: 5px;
+}
+
+
+
+.map-section {
+    flex: 1 1 100%;
+    margin-right: 10px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    border: none;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #efefef;
+}
+.contact-form input:focus , .contact-form textarea:focus{
+    outline: none;
+    border: 1px solid #ccc;
+
+}
+.contact-form button {
+    padding: 10px 26px;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease-in-out 350ms;
+}
+
+.contact-form button:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.social-media, .map {
+    margin-top: 20px;
+}
+.map iframe {
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+}
+
+.social-media {
+
+    text-align: right;
+}
+.social-media a {
+    margin-right: 10px;
+    color: #333;
+}
+.social-media a ion-icon {
+    width: 30px;
+    height: 30px;
+}
+.social-media a:hover ion-icon{
+    color: var(--main-color);
+}
+
+.contact-info .info-block {
+    margin-bottom: 40px;
+}
+
+.contact-info .info-block i {
+    font-size: 24px;
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.contact-info .info-block h5 {
+    display: inline;
+    font-size: 20px;
+    margin: 0;
+}
+
+.contact-info .info-block p {
+    margin: 8px 26px;
+    font-size: 16px;
+    color: #3e3e3e;
+    line-height: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-page {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .contact-form, .contact-info {
+        flex: 1 1 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        margin-right: 0;
+    }
+
+    .contact-info {
+        margin-left: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" alt="logo" width="100" height="70"></div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" data-lang="home">Home</a></li>
+                    <li><a href="#" data-lang="about">About</a></li>
+                    <li><a href="#" data-lang="groups">Groups</a></li>
+                    <li><a href="#" data-lang="events">Events</a></li>
+                    <li><a href="#" data-lang="location">Location</a></li>
+                    <li><a href="#" data-lang="hotels">Hotels</a></li>
+                    <li><a href="#" data-lang="targets">Targets</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="#" id="language-toggle"><ion-icon name="earth-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="full-width-section">
+            <div class="contact-page">
+                <div class="contact-form">
+                    <h2><span class="blue-text" data-lang="get_in_touch">Get in Touch</span></h2>
+                    <form id="contactForm">
+                        <label for="name" data-lang="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email" data-lang="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="subject" data-lang="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="message" data-lang="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <button type="submit" data-lang="send">Send</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-block">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5 data-lang="first_branch">Our <span class="blue-text">first branch</span></h5>
+                        <p data-lang="first_branch_address">Baghdad - Al-Karada Inside - Opposite the gas station, next to Rashid Bank</p>
+                        <div class="contact-details">
+                            <i class="fas fa-phone-alt"></i>
+                            <h5 data-lang="phone">Our <span class="blue-text">Phone</span></h5>
+                            <p>+9647833336512 <br> +9647733336512</p>
+                            <i class="fab fa-whatsapp"></i>
+                            <h5 data-lang="whatsapp">WhatsApp</h5>
+                            <p><a href="https://wa.link/gmd2uk" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i> +9647833336512</a></p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5 data-lang="second_branch">Our <span class="blue-text">second branch</span></h5>
+                        <p data-lang="second_branch_address">Baghdad - Al Mansour - Al Amirat Street - Next to Al Iqtisad Bank - Opposite Roselyn</p>
+                        <div class="contact-details">
+                            <i class="fas fa-clock"></i>
+                            <h5 data-lang="opening_hours">Our <span class="blue-text">Opening Hours</span></h5>
+                            <p data-lang="working_hours">Mon-Fri: 10am-5pm</p>
+                            <i class="fas fa-phone-alt"></i>
+                            <h5 data-lang="phone">Our <span class="blue-text">Phone</span></h5>
+                            <p>+9647850006988 <br> +9647750006988</p>
+                            <i class="fab fa-whatsapp"></i>
+                            <h5 data-lang="whatsapp">WhatsApp</h5>
+                            <p><a href="https://wa.link/46eluw" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i> +9647850006988</a></p>
+                        </div>
+                    </div>
+                    <div class="info-block">
+                        <i class="fas fa-envelope"></i>
+                        <h5><span class="blue-text" data-lang="email">Email</span></h5>
+                        <p>karada@snowbird-iq.com</p>
+                    </div>
+                </div>
+                <div class="map-section">
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/snowbird2022"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/snowbird_bgw/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.945589550723!2d44.42431648889033!3d33.30362859178406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557811a5f85b8ef%3A0x94a6b4a57bbbced7!2z2LTYsdmD2Kkg2LfYp9im2LEg2KfZhNir2YTYrCDZhNmE2LPZgdixINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2siq!4v1723267520693!5m2!1sar!2siq" width="100%" height="300" loading="lazy" style="border-radius: 24px; border: none;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="asset/images/snow_bird_logo_final_copy_1_-removebg-preview 2.png" width="150" height="90" alt="Snow Bird">
+                <p data-lang="footer_about">Snowbird Travel and Tourism was founded to meet Iraqi citizens' travel needs, offering flight bookings, premium accommodations, and visa services, all with a commitment to exceptional quality and unique experiences.</p>
+            </div>
+            <div class="footer-section location">
+                <h3 data-lang="footer_location">Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.945589550723!2d44.42431648889033!3d33.30362859178406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1557811a5f85b8ef%3A0x94a6b4a57bbbced7!2z2LTYsdmD2Kkg2LfYp9im2LEg2KfZhNir2YTYrCDZhNmE2LPZgdixINmI2KfZhNiz2YrYp9it2Kk!5e0!3m2!1sar!2siq!4v1723267520693!5m2!1sar!2siq" width="250px" height="150px" loading="lazy" style="border-radius: 24px; border: none;"></iframe>
+            </div>
+            <div class="footer-section social">
+                <h3 data-lang="footer_social_media">Social Media</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/snowbird2022"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/snowbird_bgw/"><ion-icon name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-write" data-lang="copywrite">All rights reserved by project.Iq</div>
+    </footer>
+    <!-- js code -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="asset/main.js"></script>
+    <script src="asset/transl.js"></script>
+    
+</html>
