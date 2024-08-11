@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hotel-detail {
+    padding: 0 4%;
+}
+.hotel-title {
+    margin-top: 50px;
+}
+.hotel-title h1 {
+    font-weight: 600;
+    text-align: left;
+}
+.hotel-detail .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.hotel-title ion-icon {
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+
+.hotel-details {
+    width: 100%;
+    margin: 0 auto;
+}
+.main-image img {
+    width: 60%;
+    margin: auto;
+    border-radius: 12px;
+    height: 400px;
+}
+
+.image-carousel {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    direction: ltr;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-images img {
+    margin: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.carousel-item {
+    width: 25%;
+    cursor: pointer;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 3;
+    direction: ltr;
+}
+.small-details {
+    text-align: left;
+}
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.small-details h2 {
+    font-weight: 500;
+}
+.small-details h4 {
+    text-align: right;
+    font-size: 22px;
+}
+.line {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0 50px;
+}
+
