@@ -116,6 +116,9 @@ header .icons a {
         position: fixed;
         z-index: 3;
     }
+    header .logo {
+        direction: ltr;
+    }
 
     .hamburger{
         display:block;

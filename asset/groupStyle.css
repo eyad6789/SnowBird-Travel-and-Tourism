@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background-color: #f9f9f9;
+}
+header .logo img {
+    direction: ltr;
+    text-align: left;
+}
+.title-of-trip {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-of-trip h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.title-of-trip p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.day {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+.day h2 {
+    font-size: 1.8rem;
+    color: #023e8a;
+}
+
+.day ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.day ul li {
+    background-color: #e0f7fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.day p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.table-of-price {
+    background-color: #023e8a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-of-price h3 {
+    font-size: 1.5rem;
+}
+
+.table-of-price table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.table-of-price table, th, td {
+    border: 1px solid #fff;
+}
+
+.table-of-price th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table-of-price th {
+    background-color: #0077b6;
+}
+
+.note-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.note-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-section ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .title-of-trip {
+        
+    margin-top: 100px;
+    }
+    .title-of-trip h1 {
+        font-size: 2rem;
+    }
+
+    .day h2 {
+        font-size: 1.5rem;
+    }
+
+    .table-of-price h3 {
+        font-size: 1.2rem;
+    }
+}
