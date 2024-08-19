@@ -30,9 +30,9 @@ const translations = {
         footer_location: "Location",
         footer_social_media: "Social Media",
         copywrite: "All rights reserved by project.Iq",
-        visa:"visa",
-        partner:"Our partners",
-        see_more:"see More"
+        visa: "visa",
+        partner: "Our partners",
+        see_more: "see More"
     },
     ar: {
         home: "الرئيسية",
@@ -65,18 +65,17 @@ const translations = {
         footer_location: "موقع",
         footer_social_media: "وسائل التواصل الاجتماعي",
         copywrite: "جميع الحقوق محفوظة بواسطة project.Iq",
-        visa:"تأشيرة",
-        partner:"شركائنا",
-        see_more:"المزيد"
-        
+        visa: "تأشيرة",
+        partner: "شركائنا",
+        see_more: "المزيد"
+
     }
 };
 
 document.getElementById('language-toggle').addEventListener('click', () => {
-    const currentLang = document.documentElement.lang || 'en';
-    const newLang = currentLang === 'en' ? 'ar' : 'en';
+    const currentLang = document.documentElement.lang || 'ar';
+    const newLang = currentLang === 'ar' ? 'en' : 'ar';
     document.documentElement.lang = newLang;
-    document.documentElement.setAttribute('dir', newLang === 'ar' ? 'rtl' : 'ltr');
 
     document.querySelectorAll('[data-lang]').forEach(el => {
         const key = el.getAttribute('data-lang');
