@@ -43,7 +43,7 @@ snow-bird-website/
 Official Website of SnowBird
 
 
-### Social Media
+## Social Media
 - [Linked In](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
 - [Github](https://github.com/eyad6789)
 
