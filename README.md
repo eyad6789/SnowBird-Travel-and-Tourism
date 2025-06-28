@@ -18,7 +18,7 @@ snow-bird-website/
 │   └── partner/          
 └── script.js               
 ```
-##🌐 Website Features
+## 🌐 Website Features
 - ✅ Responsive design for desktop and mobile
 - ✅ Arabic language layout with future support for English
 - ✅ Interactive navigation menu with hamburger functionality
@@ -40,7 +40,7 @@ snow-bird-website/
 - Responsive design techniques
 
 ##  © All Rights Reserved
-Official Website of Kamaran Alostora Group of Companies
+Official Website of SnowBird
 
 
 ### Social Media
