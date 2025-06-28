@@ -2,7 +2,7 @@
 
 Welcome to the official website project for Snow Bird, a travel and tourism company dedicated to providing premium travel services for Iraqi citizens, including flight reservations, hotel accommodations, and visa assistance.
 
-### 📁 Project Structure
+## 📁 Project Structure
 ```
 snow-bird-website/
 ├── home.html             
@@ -18,7 +18,7 @@ snow-bird-website/
 │   └── partner/          
 └── script.js               
 ```
-###🌐 Website Features
+##🌐 Website Features
 - ✅ Responsive design for desktop and mobile
 - ✅ Arabic language layout with future support for English
 - ✅ Interactive navigation menu with hamburger functionality
@@ -30,7 +30,7 @@ snow-bird-website/
 - ✅ Social media integration (Facebook, Instagram, WhatsApp)
 - ✅ Footer with company description and contact information
 
-###🛠️ Technologies Used
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - Vanilla JavaScript
@@ -38,3 +38,13 @@ snow-bird-website/
 - Ionicons (for additional icons)
 - Google Maps Embed API
 - Responsive design techniques
+
+##  © All Rights Reserved
+Official Website of Kamaran Alostora Group of Companies
+
+
+### Social Media
+- [Linked In](https://www.linkedin.com/in/eyad-qasim-2a96b624b/)
+- [Github](https://github.com/eyad6789)
+
+
